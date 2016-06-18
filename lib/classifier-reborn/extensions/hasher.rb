@@ -56,7 +56,7 @@ module ClassifierReborn
           result += tok.text
         end
       end
-      puts "Result: #{result}"
+      #puts "Result: #{result}"
       return result.force_encoding('utf-8')
     end
 
